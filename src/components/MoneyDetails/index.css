@@ -1,0 +1,58 @@
+/* Write your CSS here */
+.money-details-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+.money-card1 {
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ecfccb;
+  border-radius: 8px;
+  padding: 10px;
+}
+.money-card2 {
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cffafe;
+  border-radius: 8px;
+  padding: 10px;
+}
+.money-card3 {
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ede9fe;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.money-img {
+  height: 60px;
+  width: 60px;
+}
+
+.money-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 8px;
+}
+
+.balance-txt {
+  font-family: 'Roboto';
+  color: #1e293b;
+}
+
+.money-txt {
+  font-family: 'Roboto';
+  color: #7e858e;
+  font-size: 18px;
+}

@@ -1,0 +1,141 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.name-card {
+  margin-top: 15px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  border-radius: 8px;
+  padding: 15px;
+  width: 80%;
+}
+/* @media screen and (max-width: 767px){
+    .name-card {
+  margin-top: 15px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  border-radius: 8px;
+  padding: 15px;
+  width: 80%;
+}
+} */
+.name-heading {
+  font-family: 'Roboto';
+  color: #475569;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.greeting-txt {
+  font-family: 'Roboto';
+  color: #7e858e;
+}
+
+.money-manager-txt {
+  font-family: 'Roboto';
+  color: #0b69ff;
+}
+
+.input-element {
+  padding: 5px;
+  outline: none;
+  border: 1px solid #b5b7c4;
+  margin-bottom: 10px;
+}
+
+.input-element-title {
+  font-family: 'Roboto';
+  color: #b5b7c4;
+}
+
+.add-transaction-card {
+  border: 1px solid #7e858e;
+  border-radius: 8px;
+  padding: 20px;
+  width: 40%;
+}
+
+.form-element {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-app-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+.add-btn {
+  background-color: #0b69ff;
+  padding: 5px;
+  border-radius: 8px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  outline: none;
+  cursor: pointer;
+  border: 0px;
+  width: 68px;
+}
+
+.history-container {
+  padding: 20px;
+  border: 1px solid #7e858e;
+  border-radius: 8px;
+  margin-left: 20px;
+  width: 400px;
+  width: 40%;
+}
+
+.bottom-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 80%;
+}
+
+@media screen and (max-width: 767px) {
+  .bottom-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 80%;
+  }
+  .add-transaction-card {
+    border: 1px solid #7e858e;
+    border-radius: 8px;
+    padding: 20px;
+    width: 80%;
+  }
+  .history-container {
+    padding: 20px;
+    border: 1px solid #7e858e;
+    border-radius: 8px;
+    margin-left: 20px;
+    width: 400px;
+    width: 80%;
+    margin-top: 10px;
+  }
+}
+
+.bottom-sub-container {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #cbd5e1;
+  padding: 5px;
+}
+
+.history-cont-sub-heading {
+  font-family: 'Roboto';
+  color: #1e293b;
+  margin-right: 5px;
+}
+
+.ul-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
